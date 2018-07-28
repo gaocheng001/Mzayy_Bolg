@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/blog.iml" filepath="$PROJECT_DIR$/blog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-common/blog-common.iml" filepath="$PROJECT_DIR$/blog-common/blog-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-common/blog-common.iml" filepath="$PROJECT_DIR$/blog-common/blog-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-mapper/blog-mapper.iml" filepath="$PROJECT_DIR$/blog-mapper/blog-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-mapper/blog-mapper.iml" filepath="$PROJECT_DIR$/blog-mapper/blog-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-pojo/blog-pojo.iml" filepath="$PROJECT_DIR$/blog-pojo/blog-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-pojo/blog-pojo.iml" filepath="$PROJECT_DIR$/blog-pojo/blog-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-redis/blog-redis.iml" filepath="$PROJECT_DIR$/blog-redis/blog-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-redis/blog-redis.iml" filepath="$PROJECT_DIR$/blog-redis/blog-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" filepath="$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" filepath="$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-api/blog-service-api.iml" filepath="$PROJECT_DIR$/blog-service-api/blog-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-api/blog-service-api.iml" filepath="$PROJECT_DIR$/blog-service-api/blog-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" filepath="$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" filepath="$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
+    </modules>
+  </component>
+</project>
