@@ -15,7 +15,6 @@
         <module name="blog-service" />
         <module name="blog-service-api" />
         <module name="blog-ueditor" />
-        <module name="blog-web" />
         <module name="blog_api" />
         <module name="ddb" />
       </profile>
