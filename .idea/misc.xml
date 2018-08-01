@@ -19,7 +19,6 @@
         <option value="$PROJECT_DIR$/blog-redis/pom.xml" />
         <option value="$PROJECT_DIR$/blog-redis-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-web/pom.xml" />
-        <option value="$PROJECT_DIR$/fastdfs/pom.xml" />
       </list>
     </option>
   </component>

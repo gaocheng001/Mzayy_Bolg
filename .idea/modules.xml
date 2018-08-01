@@ -12,7 +12,6 @@
       <module fileurl="file://$PROJECT_DIR$/blog-service-api/blog-service-api.iml" filepath="$PROJECT_DIR$/blog-service-api/blog-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" filepath="$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
-      <module fileurl="file://$PROJECT_DIR$/fastdfs/fastdfs.iml" filepath="$PROJECT_DIR$/fastdfs/fastdfs.iml" />
     </modules>
   </component>
 </project>
