@@ -8,7 +8,7 @@ dubbox:
     protocol: zookeeper
     address: 192.168.142.129:2181
   annotation:
-    package: com.demo.service
+    package: cn.mzayy.blog.Service
   protocol:
     name: dubbo
     port: 20894
@@ -17,8 +17,7 @@ dubbox:
     threadpool: fixed
     threads: 500
     accepts: 1000
-    serialization: kryo
-    optimizer: cn.mzayy.serial.SerializationOptimizerImpl
+
   monitor:
     enabled: false
     address: 192.168.142.1:6060

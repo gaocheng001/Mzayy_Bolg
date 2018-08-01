@@ -3,11 +3,38 @@
         PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="cn.mzayy.blog.Mapper.BlogDemo">
-    <insert id="AddNote" parameterType="string">
-        insert into blog values(3,"aa");
+<mapper namespace="cn.mzayy.blog.Mapper.BlogMapper">
+    <!--<resultMap type="cn.mzayy.blog.pojo.Fenlei" id="FenleiResult">
+        <result column="BLOGDIR" property="blogDir"/>
+    </resultMap>-->
+    <resultMap type="String" id="NoteDirResult">
+        <result column="BLOGDIR" property="blogDir"/>
+    </resultMap>
+    <resultMap type="cn.mzayy.blog.pojo.Blog" id="NoteResult">
+        <id column="id" property="id"/>
+        <result column="BLOGTITLE" property="title"/>
+        <result column="CREATETIME" property="date"/>
+    </resultMap>
+
+    <insert id="AddNote">
+       insert into blog values(null,#{fenlei},#{title},#{note},#{date},3);
     </insert>
-    <select id="aa" parameterType="string" resultType="cn.mzayy.blog.pojo.Blog">
-        select * from mzayy;
+    <select id="findFenlei" parameterType="string" resultType="cn.mzayy.blog.pojo.Fenlei">
+        select ID,BLOGDIR from blog_dir;
     </select>
+    <select id="findNoteDir" parameterType="Integer" resultMap="NoteResult">
+        select ID,BlOGTITLE,CREATETIME from blog where FENLEI=#{id};
+    </select>
+    <select id="findNote" parameterType="Integer" resultType="String">
+        select NOTE from blog where ID=#{id};
+    </select>
+    <delete id="deleteNote" parameterType="Integer">
+        delete from blog where ID=#{id};
+    </delete>
+    <insert id="addFenlei">
+        insert into blog_dir values(null,#{fenleiName},1);
+    </insert>
+    <delete id="deleteFenlei">
+        delete from blog_dir where ID=#{id};
+    </delete>
 </mapper>

@@ -15,8 +15,10 @@
         <module name="blog-service" />
         <module name="blog-service-api" />
         <module name="blog-ueditor" />
+        <module name="blog-web" />
         <module name="blog_api" />
         <module name="ddb" />
+        <module name="fastdfs" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,11 +32,13 @@
       <module name="blog-service-api" target="1.8" />
       <module name="blog-ueditor" target="1.8" />
       <module name="blog-web" target="1.8" />
+      <module name="blog-web1" target="1.8" />
       <module name="blog_api" target="1.8" />
       <module name="ddb" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="demo2d" target="1.8" />
       <module name="demo5d" target="1.8" />
+      <module name="fastdfs" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

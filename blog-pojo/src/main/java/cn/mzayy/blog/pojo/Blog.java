@@ -3,16 +3,15 @@ package cn.mzayy.blog.pojo;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.sql.Date;
 
 @Data
 public class Blog implements Serializable {
-    private int id;
-    private String title;
+    public int id;
+    public String title;
     private String note;
+    private int fenlei;
     private String describe;
     private String writer;
-    public void a(){
-        int a3;
-        System.out.println("abclkj");
-    }
+    private Date date=new Date(2018,3,1);
 }
