@@ -7,6 +7,8 @@ import cn.mzayy.blog.Mapper.BlogMapper;
 import cn.mzayy.blog.ServiceAPI.BlogService;
 import cn.mzayy.blog.pojo.Blog;
 import cn.mzayy.blog.pojo.Fenlei;
+import cn.mzayy.bolg.redis.service.JedisClient;
+import com.alibaba.dubbo.config.annotation.Reference;
 import com.alibaba.dubbo.config.annotation.Service;
 import org.csource.fastdfs.StorageClient;
 
@@ -20,9 +22,11 @@ import java.util.Map.Entry;
 public class BlogServiceImpl implements BlogService {
     @Resource
     private BlogMapper blogMapper;
+    @Reference(version = "1.0.0")
+    private JedisClient jedisClient;
     @Override
     public String AddNote(Blog blog) {
-
+        System.out.println(jedisClient);
         blogMapper.AddNote(blog);
 
         return "bb";

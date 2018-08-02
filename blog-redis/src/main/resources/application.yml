@@ -1,29 +1,33 @@
 #DUBBOX
 dubbox:
   application:
-    name: xbin-store-service-redis1
-    organization: dubbox1
-    owner: binux1
+    name: blog-redis
+    organization: dubbox
+    owner: mzayy
   registry:
     protocol: zookeeper
-    address: 127.0.0.1:2181
+    address: 192.168.142.129:2181
   annotation:
-    package: cn.binux.redis1
+    package: cn.mzayy.blog.service.impl
   protocol:
     name: dubbo
-    port: 208811
-    #host: 192.168.125.1
-    timeout: 300001
-    threadpool: fixed1
-    threads: 5001
-    accepts: 10001
-    serialization: kryo
-    optimizer: cn.binux.serial.SerializationOptimizerImpl
+    port: 20881
+    host: 192.168.142.1
+    timeout: 30000
+    threadpool: fixed
+    threads: 500
+    accepts: 1000
   monitor:
     enabled: false
     address: 192.168.125.1:6060
     username: admin
     password: admin
 
+# REDIS (RedisProperties)
+redis:
+  cluster: false
+  single-host: 192.168.142.129
+  single-port: 6379
+  password:
 server:
-  port: 8512
+  port: 8882

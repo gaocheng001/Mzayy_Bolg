@@ -19,6 +19,9 @@
         <option value="$PROJECT_DIR$/blog-redis/pom.xml" />
         <option value="$PROJECT_DIR$/blog-redis-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-web/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-sso-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-web-sso/pom.xml" />
       </list>
     </option>
   </component>

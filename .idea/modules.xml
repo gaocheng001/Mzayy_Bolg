@@ -10,8 +10,11 @@
       <module fileurl="file://$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" filepath="$PROJECT_DIR$/blog-redis-api/blog-redis-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-service-api/blog-service-api.iml" filepath="$PROJECT_DIR$/blog-service-api/blog-service-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-sso-service/blog-sso-service.iml" filepath="$PROJECT_DIR$/blog-sso-service/blog-sso-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-sso-service-api/blog-sso-service-api.iml" filepath="$PROJECT_DIR$/blog-sso-service-api/blog-sso-service-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" filepath="$PROJECT_DIR$/blog-ueditor/blog-ueditor.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-web-sso/blog-web-sso.iml" filepath="$PROJECT_DIR$/blog-web-sso/blog-web-sso.iml" />
     </modules>
   </component>
 </project>

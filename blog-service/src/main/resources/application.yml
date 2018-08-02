@@ -66,3 +66,11 @@ pagehelper:
     params: count=countSql
 server:
   port: 8086
+
+spring:    application:
+        name: spirng-boot-rabbitmq
+    rabbitmq:
+        host: 192.168.0.86
+        password: 123456
+        port: 5672
+        username: admin

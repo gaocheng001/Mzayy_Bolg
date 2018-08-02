@@ -14,13 +14,17 @@
         <module name="blog-redis-api" />
         <module name="blog-service" />
         <module name="blog-service-api" />
+        <module name="blog-sso-service" />
+        <module name="blog-sso-service-api" />
         <module name="blog-ueditor" />
         <module name="blog-web" />
+        <module name="blog-web-sso" />
         <module name="blog_api" />
         <module name="ddb" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alicom-dysms-api" target="1.8" />
       <module name="blog" target="1.8" />
       <module name="blog-common" target="1.8" />
       <module name="blog-mapper" target="1.8" />
@@ -29,8 +33,12 @@
       <module name="blog-redis-api" target="1.8" />
       <module name="blog-service" target="1.8" />
       <module name="blog-service-api" target="1.8" />
+      <module name="blog-sso" target="1.8" />
+      <module name="blog-sso-service" target="1.8" />
+      <module name="blog-sso-service-api" target="1.8" />
       <module name="blog-ueditor" target="1.8" />
       <module name="blog-web" target="1.8" />
+      <module name="blog-web-sso" target="1.8" />
       <module name="blog-web1" target="1.8" />
       <module name="blog_api" target="1.8" />
       <module name="ddb" target="1.8" />
