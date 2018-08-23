@@ -39,11 +39,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
-        <dependency>
-            <groupId>cn.mzayy.blog</groupId>
-            <artifactId>blog-pojo</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+       
     </dependencies>
 
     <build>

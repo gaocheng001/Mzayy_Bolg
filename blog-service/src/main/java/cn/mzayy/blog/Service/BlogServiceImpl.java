@@ -22,7 +22,7 @@ import java.util.Map.Entry;
 public class BlogServiceImpl implements BlogService {
     @Resource
     private BlogMapper blogMapper;
-    @Reference(version = "1.0.0")
+    //@Reference(version = "1.0.0")
     private JedisClient jedisClient;
     @Override
     public String AddNote(Blog blog) {

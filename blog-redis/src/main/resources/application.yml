@@ -11,7 +11,7 @@ dubbox:
     package: cn.mzayy.blog.service.impl
   protocol:
     name: dubbo
-    port: 20881
+    port: 20882
     host: 192.168.142.1
     timeout: 30000
     threadpool: fixed

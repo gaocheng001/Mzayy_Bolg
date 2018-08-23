@@ -19,6 +19,7 @@
         //1.添加分类
         //2.页面加载执行查找分类    
         findFenlei();
+
     });
    
     </script>
@@ -29,34 +30,50 @@
     </style>
 </head>
 <body>
+    <header style="padding-left:4%;height:60px;">
+        <span style="float:left;color:#4efeb3">Mzayy</span>
+        <span style="float:right;margin-right:22px;">登录/注册</span>
+    </header>
     <!--博客内容-->
-<div>
-   
-    <div>
-            分类
-    <div id="fenlei">
+<div style="float:left;width:25%;padding-left:5%">
+    <div style="height:240px;background:#efa042;width:280px;text-align: center;padding-top:30px;line-height:45px;">个人信息
+    <br>
+        至尊管理员
+        <br>
+        经验:xxx
+        <br>
+        称号:无敌虾
     </div>
-    <select id="delete-fenlei">
+    <div style="margin-top:30px;">
+        <span style="font-weight:700;float:right;margin-right:100px;margin-bottom:12px;">分类</span>
+        <div style="clear:both;"></div>
+        <select id="delete-fenlei" >
             <option>删除分类</option>
-    </select>
-    <br/>
+        </select>
+        <input type="button" onclick='DeleteFenlei(this);' value="删除"/>
+        <input type='button' onclick='AddFenlei(this);' value='+'/></br>
+        <div id="fenlei" style="clear:both;margin-top:20px;"></div>
+        <div id="noteDir"></div>
+
 </div>
-    <input type="button" onclick='DeleteFenlei(this);' value="删除"/>
+
 </div>
-<div>
-    <h1>博客</h1>
-    <input id="add-title" type="text" value="标题"/>
+<div id="blogRight" style="float:left;width:70%">
+    <h1 style="margin-top:0;">博客</h1>
+    <input id="add-title" type="text"  value="标题" onfocus="javascript:if(this.value=='标题')this.value='';" onblur="javascript:if(this.value=='')this.value='标题';"/>
     <select id="add-fenlei">
         <option>分类</option>
     </select>
-    <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
-</div>
     <!--博客功能按钮-->
-<div id="btns">
-    <div>
-        <button onclick="AddNote()">添加笔记</button>
+    <div id="btns">
+        <div>
+            <button onclick="AddNote()">添加笔记</button>
+        </div>
     </div>
-</div>
+
+    <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
+
+    </div>
 
 </body>
 </html>

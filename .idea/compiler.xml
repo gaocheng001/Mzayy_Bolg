@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="blog" />
         <module name="blog-common" />
         <module name="blog-mapper" />
         <module name="blog-pojo" />
@@ -21,6 +21,8 @@
         <module name="blog-web-sso" />
         <module name="blog_api" />
         <module name="ddb" />
+        <module name="demo" />
+        <module name="eureka" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -45,6 +47,7 @@
       <module name="demo" target="1.8" />
       <module name="demo2d" target="1.8" />
       <module name="demo5d" target="1.8" />
+      <module name="eureka" target="1.8" />
       <module name="fastdfs" target="1.8" />
     </bytecodeTargetLevel>
   </component>

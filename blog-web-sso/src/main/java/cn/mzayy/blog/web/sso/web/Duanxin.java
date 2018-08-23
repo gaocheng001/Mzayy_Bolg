@@ -1,4 +1,4 @@
-package cn.mzayy.blog.web.sso.web;
+/*package cn.mzayy.blog.web.sso.web;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
@@ -132,3 +132,4 @@ public class Duanxin {
 
     }
 }
+*/

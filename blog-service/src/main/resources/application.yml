@@ -11,7 +11,7 @@ dubbox:
     package: cn.mzayy.blog.Service
   protocol:
     name: dubbo
-    port: 20894
+    port: 20895
     host: 192.168.99.1
     timeout: 30000
     threadpool: fixed
@@ -67,10 +67,3 @@ pagehelper:
 server:
   port: 8086
 
-spring:    application:
-        name: spirng-boot-rabbitmq
-    rabbitmq:
-        host: 192.168.0.86
-        password: 123456
-        port: 5672
-        username: admin

@@ -1,14 +1,13 @@
 package cn.mzayy.blog.web.sso.web;
 
 import cn.mzayy.blog.sso.service.UserService;
-import com.aliyuncs.exceptions.ClientException;
+import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -16,7 +15,7 @@ import java.io.IOException;
 
 @Controller
 public class UserController {
-
+    @Reference(version = "1.0.0")
     private UserService userService;
     @RequestMapping("/register")
     public String showRegister(){
@@ -48,12 +47,14 @@ public class UserController {
     public void showSuccess(){
 
     }
-    @RequestMapping("/sms")
+    //短信验证
+    /*@RequestMapping("/sms")
     public String sendsms(HttpServletResponse res) throws ClientException, IOException, InterruptedException {
         Duanxin.main(null);
 
         return "login.html";
 
-    }
+    }*/
+
 
 }
