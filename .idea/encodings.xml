@@ -5,6 +5,7 @@
     <file url="file://$PROJECT_DIR$/blog-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-mapper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-pom-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-redis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-redis-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-service" charset="UTF-8" />

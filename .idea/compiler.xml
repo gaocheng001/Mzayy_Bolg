@@ -10,18 +10,16 @@
         <module name="blog-common" />
         <module name="blog-mapper" />
         <module name="blog-pojo" />
-        <module name="blog-redis" />
-        <module name="blog-redis-api" />
         <module name="blog-service" />
         <module name="blog-service-api" />
-        <module name="blog-sso-service" />
-        <module name="blog-sso-service-api" />
-        <module name="blog-ueditor" />
+        <module name="blog-service-redis" />
+        <module name="blog-service-redis-api" />
+        <module name="blog-service-sso" />
+        <module name="blog-service-sso-api" />
         <module name="blog-web" />
         <module name="blog-web-sso" />
         <module name="blog_api" />
         <module name="ddb" />
-        <module name="demo" />
         <module name="eureka" />
       </profile>
     </annotationProcessing>
@@ -31,13 +29,14 @@
       <module name="blog-common" target="1.8" />
       <module name="blog-mapper" target="1.8" />
       <module name="blog-pojo" target="1.8" />
-      <module name="blog-redis" target="1.8" />
-      <module name="blog-redis-api" target="1.8" />
+      <module name="blog-pom-service" target="1.8" />
       <module name="blog-service" target="1.8" />
       <module name="blog-service-api" target="1.8" />
+      <module name="blog-service-redis" target="1.8" />
+      <module name="blog-service-redis-api" target="1.8" />
+      <module name="blog-service-sso" target="1.8" />
+      <module name="blog-service-sso-api" target="1.8" />
       <module name="blog-sso" target="1.8" />
-      <module name="blog-sso-service" target="1.8" />
-      <module name="blog-sso-service-api" target="1.8" />
       <module name="blog-ueditor" target="1.8" />
       <module name="blog-web" target="1.8" />
       <module name="blog-web-sso" target="1.8" />

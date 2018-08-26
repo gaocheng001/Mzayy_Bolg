@@ -9,6 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableScheduling
 @EnableCaching
 public class BootWebApplication {
+
     public static void main(String[] args) {
         SpringApplication.run(BootWebApplication.class, args);
     }

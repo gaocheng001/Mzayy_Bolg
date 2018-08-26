@@ -2,9 +2,6 @@ package cn.mzayy.blog.Mapper;
 
 import cn.mzayy.blog.pojo.Blog;
 import cn.mzayy.blog.pojo.Fenlei;
-import org.apache.ibatis.annotations.Param;
-
-import java.sql.Date;
 import java.util.List;
 
 public interface BlogMapper {

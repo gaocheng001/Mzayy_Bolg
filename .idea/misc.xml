@@ -14,7 +14,6 @@
         <option value="$PROJECT_DIR$/blog-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/blog-service/pom.xml" />
         <option value="$PROJECT_DIR$/blog-service-api/pom.xml" />
-        <option value="$PROJECT_DIR$/blog-ueditor/pom.xml" />
         <option value="$PROJECT_DIR$/blog-common/pom.xml" />
         <option value="$PROJECT_DIR$/blog-redis/pom.xml" />
         <option value="$PROJECT_DIR$/blog-redis-api/pom.xml" />
@@ -23,7 +22,7 @@
         <option value="$PROJECT_DIR$/blog-sso-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/blog-web-sso/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/blog-pom-service/pom.xml" />
       </list>
     </option>
   </component>

@@ -8,8 +8,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import javax.annotation.Resource;
 @Service(version="1.0.0")
 public class UserServiceImpl implements  UserService {
-    @Reference(version = "1.0.0")
-    private JedisClient jedisClient;
+
     @Resource
     private UserMapper userMapper;
 
@@ -30,11 +29,6 @@ public class UserServiceImpl implements  UserService {
 
     @Override
     public void login() {
-        System.out.println("abcddde");
-        System.out.println(jedisClient);
-        jedisClient.set("a","b");
-        System.out.println(jedisClient.get("a"));
-        System.out.println("bbbbbbb");
-        //userMapper.login("","");
+
     }
 }
