@@ -1,0 +1,33 @@
+#DUBBOX
+dubbox:
+  application:
+    name: blog-redis
+    organization: dubbox
+    owner: mzayy
+  registry:
+    protocol: zookeeper
+    address: 192.168.142.129:2181
+  annotation:
+    package: cn.mzayy.blog.service.impl
+  protocol:
+    name: dubbo
+    port: 20883
+    host: 192.168.142.1
+    timeout: 30000
+    threadpool: fixed
+    threads: 500
+    accepts: 1000
+  monitor:
+    enabled: false
+    address: 192.168.125.1:6060
+    username: admin
+    password: admin
+
+# REDIS (RedisProperties)
+redis:
+  cluster: false
+  single-host: 192.168.142.129
+  single-port: 6379
+  password:
+server:
+  port: 8884

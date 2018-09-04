@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.mzayy.blog.Mapper.UserMapper">
+    <!--<resultMap type="cn.mzayy.blog.pojo.Fenlei" id="FenleiResult">
+        <result column="BLOGDIR" property="blogDir"/>
+    </resultMap>-->
+
+    <insert id="register">
+     INSERT INTO BLOG_USER VALUES (NULL,#{USER},#{PASSWORD});
+    </insert>
+    <delete id="deleteUser">
+      DELETE FROM BLOG_USER WHERE ID=#{ID};
+    </delete>
+    <update id="passwordModify" parameterType="Integer">
+        UPDATE BLOG_USER SET PASSWORD=#{PASSWORD} where ID=#{id};
+    </update>
+    <select id="login" parameterType="string" resultType="cn.mzayy.blog.pojo.Fenlei">
+        SELECT ID FROM BLOG_USER
+        <where>
+            <if test="id != null ">id=#{id}</if>
+            <if test="name != null and name.length()>0" >and user=#{USER}</if>
+            <if test="gender != null and gender.length()>0">PASSWOORD=#{PASSWORD</if>
+        </where>
+    </select>
+</mapper>
