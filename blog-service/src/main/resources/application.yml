@@ -6,7 +6,7 @@ dubbox:
     owner: mzayy
   registry:
     protocol: zookeeper
-    address: 192.168.142.129:2181
+    address: 123.112.66.6:2181
   annotation:
     package: cn.mzayy.blog.Service
   protocol:
@@ -26,10 +26,10 @@ dubbox:
 
 
 druid:
-    url: jdbc:mysql://localhost:3306/mzayy?characterEncoding=utf-8
+    url: jdbc:mysql://123.112.66.6:3306/mzayy?characterEncoding=utf-8
     driver-class: com.mysql.jdbc.Driver
     username: root
-    password: Mzayy001..
+    password: qwaszx
     initial-size: 1
     min-idle: 1
     max-active: 20

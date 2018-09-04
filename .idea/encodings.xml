@@ -10,12 +10,14 @@
     <file url="file://$PROJECT_DIR$/blog-redis-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-service-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-service-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-service-redis-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-service-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/blog-service-sso-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-sso-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-sso-service-api" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/blog-ueditor" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/blog-web-sso" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/demo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src" charset="UTF-8" />
   </component>

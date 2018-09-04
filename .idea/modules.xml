@@ -9,10 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/blog-pom-service/blog-pom-service.iml" filepath="$PROJECT_DIR$/blog-pom-service/blog-pom-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-service/blog-service.iml" filepath="$PROJECT_DIR$/blog-service/blog-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-service-api/blog-service-api.iml" filepath="$PROJECT_DIR$/blog-service-api/blog-service-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog-redis/blog-service-redis.iml" filepath="$PROJECT_DIR$/blog-redis/blog-service-redis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog-redis-api/blog-service-redis-api.iml" filepath="$PROJECT_DIR$/blog-redis-api/blog-service-redis-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog-sso-service/blog-service-sso.iml" filepath="$PROJECT_DIR$/blog-sso-service/blog-service-sso.iml" />
-      <module fileurl="file://$PROJECT_DIR$/blog-sso-service-api/blog-service-sso-api.iml" filepath="$PROJECT_DIR$/blog-sso-service-api/blog-service-sso-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-redis-api/blog-service-redis-api.iml" filepath="$PROJECT_DIR$/blog-service-redis-api/blog-service-redis-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-sso/blog-service-sso.iml" filepath="$PROJECT_DIR$/blog-service-sso/blog-service-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-sso-api/blog-service-sso-api.iml" filepath="$PROJECT_DIR$/blog-service-sso-api/blog-service-sso-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blog-service-redis/blog-servive-redis.iml" filepath="$PROJECT_DIR$/blog-service-redis/blog-servive-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-web/blog-web.iml" filepath="$PROJECT_DIR$/blog-web/blog-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/blog-web-sso/blog-web-sso.iml" filepath="$PROJECT_DIR$/blog-web-sso/blog-web-sso.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />

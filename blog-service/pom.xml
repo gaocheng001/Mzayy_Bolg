@@ -15,7 +15,7 @@
         <groupId>cn.mzayy.blog.pom</groupId>
         <artifactId>blog-pom-service</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath>../blog-pom-service/pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <properties>

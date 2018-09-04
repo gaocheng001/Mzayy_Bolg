@@ -34,8 +34,10 @@ public class UserController {
         userService.modifyUser();
     }
     @RequestMapping(value = "/user/login",method = RequestMethod.POST)
-    public void login(HttpServletRequest result,HttpServletResponse res) throws IOException {
-        userService.login();
+    public void login(HttpServletRequest req,HttpServletResponse res) throws IOException {
+        String user=req.getParameter("user");
+        String password=req.getParameter("password");
+        userService.login(user,password);
     }
     @RequestMapping(value = "/login",method = RequestMethod.GET)
     public String showLogin(Model model, String returnUrl){
