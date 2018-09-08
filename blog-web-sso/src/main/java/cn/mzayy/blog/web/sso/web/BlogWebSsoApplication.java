@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 public class BlogWebSsoApplication {
 
     public static void main(String[] args) {
-        System.out.println("3331111");
+        System.out.println("333112211");
         SpringApplication.run(BlogWebSsoApplication.class, args);
         System.out.println("124124124");
     }
