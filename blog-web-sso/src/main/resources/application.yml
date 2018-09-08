@@ -1,0 +1,14 @@
+#DUBBOX
+dubbox:
+  application:
+    name: blog-sso-web
+    organization: dubbox
+    owner: mzayy
+  registry:
+    protocol: zookeeper
+    address: 123.112.66.6:2181
+  annotation:
+    package: cn.mzayy.blog.web.sso.web
+
+server:
+  port: 85
