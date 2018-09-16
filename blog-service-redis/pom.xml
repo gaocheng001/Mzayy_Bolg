@@ -38,21 +38,7 @@
         <artifactId>mybatis-spring-boot-starter</artifactId>
         <version>${springboot.mybatis.version}</version>
     </dependency>
-    <dependency>
-        <groupId>cn.mzayy.blog.pom</groupId>
-        <artifactId>blog-pom-service</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <exclusions>
-            <exclusion>
-                <groupId>org.mybatis.spring.boot</groupId>
-                <artifactId>mybatis-spring-boot-starter</artifactId>
-            </exclusion>
-            <exclusion>
-                <groupId>cn.binux</groupId>
-                <artifactId>spring-boot-starter-druid</artifactId>
-            </exclusion>
-        </exclusions>
-    </dependency>
+
         <dependency>
             <groupId>net.oschina.zcx7878</groupId>
             <artifactId>fastdfs-client-java</artifactId>
@@ -71,9 +57,28 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>${commons-lang3.version}</version>
-        </dependency>
+        </dependency><dependency>
+    <groupId>cn.mzayy.bolg</groupId>
+    <artifactId>blog-redis-api</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <scope>compile</scope>
+</dependency>
+    <dependency>
+        <groupId>com.alibaba</groupId>
+        <artifactId>dubbo</artifactId>
+        <version>2.8.5-SNAPSHOT</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>redis.clients</groupId>
+        <artifactId>jedis</artifactId>
+    </dependency>
 
-    </dependencies>
+</dependencies>
 
     <build>
         <plugins>
